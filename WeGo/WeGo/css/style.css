@@ -1,0 +1,223 @@
+body, ul, li, ol, dl, dd, dt, p，hl, h2, h3，h4, h5, h6, form, img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+body{
+  background-image: url(../img/围棋背景图.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*页眉css样式*/
+header{
+  width: 100%;
+  background: #7E7979;
+  height: 46px;
+}
+header .head{
+  width: 1200px;
+  margin: 0 auto;
+}
+header .head .head_left{
+  float: left;
+}
+header .head .head_right{
+  float: right;
+}
+header .head .head_left li{
+  float: left;
+  margin-right: 50px;
+  color: #D1C9CA;
+  height: 46px;
+  line-height: 46px;
+  cursor: pointer;
+}
+header .head .head_left li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+header .head .head_right li{
+  float: right;
+  margin-left: 50px;
+  color: #D1C9CA;
+  height: 46px;
+  line-height: 46px;
+  cursor: pointer;
+}
+header .head .head_right li a{
+  color: #D1C9CA;
+  text-decoration: none;
+}
+header .head .head_right li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.backgroundmusic{
+  height: 30px;
+  margin-left: 215px;
+  margin-top: 6px;
+  border: solid hsla(0,2%,48%,1.00);
+}
+/*导航栏css样式*/
+nav{
+  width: 100%;
+  background: hsla(0,6%,79%,1.00);
+  height: 100px;
+  position: absolute;
+  border-bottom: solid hsla(0,2%,48%,1.00);
+}
+nav .nav{
+  width: 1200px;
+  margin: 0 auto;
+}
+nav ul{
+  float: left;
+}
+nav ul li{
+  float: left;
+  margin-right: 50px;
+  font-size: 25px;
+  height: 50px;
+  line-height: 95px;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: hsla(0,0%,0%,1.00);
+  font-size: 28px;
+  font-family: 楷体;
+}
+.nav ul li a:hover{
+  color: hsla(0,0%,100%,1.00);
+}
+.shouyetiaozhuan{
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background: url(../img/缘弈围棋网.png) no-repeat center left;
+  background-size: 100%;
+}
+.shouyetiaozhuan:hover{
+  cursor: pointer;
+  box-shadow: 0px 5px 5px 5px hsla(0,2%,48%,1.00);
+}
+/*banner css样式*/
+/*主体内容css样式*/
+.content{
+  width: 1200px;
+  height: 1800px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+.video{
+  width: 1200px;
+  height: 1800px;
+}
+.introduce{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 40px;
+  width: 900px;
+  height: 350px;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+}
+.video1{
+  width: 435px;
+  height: 440px;
+  margin: 0 auto;
+  position: absolute;
+  top: 380px;
+  left: 200px;
+  float: left;
+}
+.video1 p{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: oblique;
+}
+.video1 video{
+  position: absolute;
+  top: 75px;
+}
+.video2{
+  width: 435px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 380px;
+  left: 660px;
+}
+.video2 video{
+  position: absolute;
+  top: 75px;
+}
+.video2 p{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: oblique;
+}
+.introduce2{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 40px;
+  width: 900px;
+  height: 200px;
+  position: absolute;
+  top: 980px;
+  left: 200px;
+}
+.video3{
+  width: 435px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 1200px;
+  left: 423px;
+}
+.video3 p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: oblique;
+}
+/*footer css样式*/
+footer{
+  width: 100%;
+  height: 180px;
+  background: hsla(0,2%,48%,1.00);
+  text-align: center;
+  color: #fff;
+  margin-top: 480px;
+}
+footer .footer{
+  width: 1200px;
+  height: 127px;
+  margin: 0 auto;
+  position: relative;
+}
+footer p{
+  line-height: 50px;
+}
+footer ul{	text-align: center;}
+footer ul li a{
+  float: left;
+  margin-right: 50px;
+  font-size: 20px;
+  height: 50px;
+  line-height: 60px;
+  padding-left: 12.2%;
+  color: #fff;
+}
+footer ul li a:hover{
+  color: hsla(0,0%,0%,1.00);
+}
+
+
+
