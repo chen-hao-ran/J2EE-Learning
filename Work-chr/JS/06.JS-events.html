@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件案例</title>
+</head>
+<body>
+    <img id="light" src="img/off.gif"> <br>
+    <input type="button" value="点亮"> <input type="button"  value="熄灭">
+
+    <br> <br>
+
+    <input type="text" id="name" value="ITCAST">
+    <br> <br>
+
+    <input type="checkbox" name="hobby"> 电影
+    <input type="checkbox" name="hobby"> 旅游
+    <input type="checkbox" name="hobby"> 游戏
+    <br>
+
+    <input type="button" value="全选" > <input type="button" value="反选" >
+
+    <script>
+
+            var img = document.getElementById("light");
+            var bts = document.getElementsByTagName("input");
+            var ton = bts[0];
+            var toff = bts[1];
+            ton.onclick = function() {
+                img.src = "./img/on.gif";
+            };
+            toff.onclick = function() {
+                img.src = "./img/off.gif";
+            };
+
+            var tcase = bts[2];
+            tcase.onfocus = function() {
+                tcase.value = "itcast";
+            };
+            tcase.onblur = function() {
+                tcase.value = "ITCAST";
+            };
+
+            var ins = document.getElementsByName("hobby");
+            var allon = bts[6];
+            var inv = bts[7];
+            allon.onclick = function() {
+                for (let i = 0; i < ins.length; i++) {
+                    const check = ins[i];
+                    check.checked = true;
+                }
+            };
+            inv.onclick = function() {
+                for (let i = 0; i < ins.length; i++) {
+                    const check = ins[i];
+                    check.checked = !check.checked;
+                }                
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Intro</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- <input type="text" v-model="message">
+        {{message}} -->
+        <input type="text" v-model="url"> <br>
+        <a :href="url" target="_blank">link</a> <br>
+
+        <input type="button" value="Click me" @click="handle()"> <br>
+
+        <div v-for="array in arrays"> {{array}} </div>
+    </div>
+
+</body>
+</body>
+<script>
+    new Vue ({
+        el: "#app",
+        data: {
+            message: "Hello Vue",
+            url: "https://www.baidu.com",
+            arrays: [1, 2, 3, 4],
+        },
+        methods: {
+            handle: function() {
+                alert("You clicked me.")
+            }
+        },  
+    })
+</script>
+</html>
